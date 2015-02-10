@@ -59,12 +59,10 @@ class Database {
         // isn't true or false, there is an error.
         
         if(!$query) {
-            $error = 
+            $this->error = $this->connection->error; 
         }
-        
         // The exclamation point means
         // the data is false.
-
         $this->closeConnection();
 
         return $query;
