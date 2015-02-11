@@ -8,6 +8,7 @@ class Database {
     private $password;
     private $database;
     public $error;
+
 //    Made public to be able to access
 //    the error data from 
 //    the Create-db file.
@@ -57,9 +58,9 @@ class Database {
         // The result of the query is true
         // when successfull, when the query
         // isn't true or false, there is an error.
-        
-        if(!$query) {
-            $this->error = $this->connection->error; 
+
+        if (!$query) {
+            $this->error = $this->connection->error;
         }
         // The exclamation point means
         // the data is false.

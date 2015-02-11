@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . "/database.php") ;
+require_once(__DIR__ . "/database.php");
 session_start();
 
 
@@ -16,5 +16,5 @@ if (!isset($_SESSION["connection"])) {
     $connection = new Database($host, $username, $password, $database);
     $_SESSION["connection"] = $connection;
 }
-// If the seesion variable isn't set, the connection
+// If the session variable isn't set, the connection
 //  variable ceases to exist.
