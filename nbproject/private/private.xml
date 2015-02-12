@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/JoshT-Blog/Controller/Create-post.php</file>
-            <file>file:/C:/xampp/htdocs/JoshT-Blog/View/Footer.php</file>
-            <file>file:/C:/xampp/htdocs/JoshT-Blog/Model/Database.php</file>
-            <file>file:/C:/xampp/htdocs/JoshT-Blog/View/Header.php</file>
-            <file>file:/C:/xampp/htdocs/JoshT-Blog/Register.php</file>
             <file>file:/C:/xampp/htdocs/JoshT-Blog/View/Register-form.php</file>
             <file>file:/C:/xampp/htdocs/JoshT-Blog/Controller/Create-user.php</file>
+            <file>file:/C:/xampp/htdocs/JoshT-Blog/Post.php</file>
+            <file>file:/C:/xampp/htdocs/JoshT-Blog/Controller/Read-posts.php</file>
             <file>file:/C:/xampp/htdocs/JoshT-Blog/Index.php</file>
             <file>file:/C:/xampp/htdocs/JoshT-Blog/View/Form.php</file>
         </group>
