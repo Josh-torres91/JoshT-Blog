@@ -1,3 +1,6 @@
+<link type="text/css" rel="stylesheet" href="Read-posts.css">
+<link type="text/css" rel="stylesheet" href="Customization.css">
+
 <?php
 
 require_once(__DIR__ . "/../model/config.php");
@@ -7,10 +10,10 @@ $result = $_SESSION["connection"]->query($query);
 
 if ($result) {
     while ($row = mysqli_fetch_array($result)) {
-        echo "<div class='post'>";
+        echo "<div  class='post'>";
         echo "<h2>" . $row['title'] . "</h2>";
         echo "<br />";
-        echo "<p>" . $row['post'] . "</h1>";
+        echo "<h1>" . $row['post'] . "</h1>";
         echo "<br />";
         echo "</div";
     }
