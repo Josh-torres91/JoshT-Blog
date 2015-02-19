@@ -14,6 +14,10 @@ class Database {
 //    the Create-db file.
 
     public function __construct($host, $username, $password, $database) {
+//    The construct variable
+//    creates or constructs a new
+//    database.
+
         $this->host = $host;
         $this->username = $username;
         $this->password = $password;

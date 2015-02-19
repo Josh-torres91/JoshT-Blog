@@ -3,11 +3,13 @@
 require_once(__DIR__ . "/../model/config.php");
 
 function authenticateUser() {
-    if(!isset($_SESSION["authenticated"])) {
+    if (!isset($_SESSION["authenticated"])) {
         return false;
-    }
-    else {
-        if($)
+    } else {
+        if ($_SESSION["authenticated"] != true) {
+            
+        } else {
+            return true;
+        }
     }
 }
-
