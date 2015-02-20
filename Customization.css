@@ -2,11 +2,21 @@
     text-decoration-color: black;
 }
 body{
-    background-image: url(https://gamercrash.files.wordpress.com/2011/08/halo-combat-evolved-anniversary-pax-prime-2011.jpg);
+    background-color: #0066ff;
     background-size: cover;
 }
 
 .form {
-    background-image: url(https://gamercrash.files.wordpress.com/2011/08/halo-combat-evolved-anniversary-pax-prime-2011.jpg);
+    background-color: #0066ff;
+    background-size: cover;
+}
+
+.Login-form {
+    background-color: #0066ff;
+    background-size: cover;
+}
+
+.Register {
+    background-color: #0066ff;
     background-size: cover;
 }

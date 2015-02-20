@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>JayBlarg</title>
+        <title>JayBlog</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="http://www.halopedia.org/images/0/05/Marathon_logo.jpg">
@@ -9,8 +9,13 @@
         <link type="text/css" rel="stylesheet" href="css/Customization.css">
 </html>
 
-<?php
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <a id="current-link" href="Index.php">JayBlog</a>
+    <a href="Register.php">Register</a>
+    <a href="Login.php">Sign In</a>
+</nav>
 
+<?php
 require_once(__DIR__ . "/view/Header.php");
 require_once(__DIR__ . "/view/Register-form.php");
 require_once(__DIR__ . "/view/Footer.php");
