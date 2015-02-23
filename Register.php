@@ -9,11 +9,17 @@
         <link type="text/css" rel="stylesheet" href="css/Customization.css">
 </html>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <a id="current-link" href="Index.php">JayBlog</a>
-    <a href="Register.php">Register</a>
-    <a href="Login.php">Sign In</a>
-</nav>
+<div class="jumbotron">
+  <h1>Well hello Internet!</h1>
+  <p>This is JayBlog, the latest project in the App Academy!</p>
+  <p><a class="btn btn-primary btn-lg" href="http://localhost:8383/Portfolio3JoshT/Index%20-%20PvIII.html" role="button">Learn more</a></p>
+  <ul class="nav nav-pills">
+    <li role="presentation"><a href="Register.php">Register</a></li>
+    <li role="presentation" id="current-link" class="active"><a href="Index.php">Home</a></li>
+    <li role="presentation"><a href="Login.php">Sign In</a></li>
+</ul>
+  
+</div>
 
 <?php
 require_once(__DIR__ . "/view/Header.php");
