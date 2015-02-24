@@ -12,7 +12,7 @@
 <div class="jumbotron">
   <h1>Well hello Internet!</h1>
   <p>This is JayBlog, the latest project in the App Academy!</p>
-  <p><a class="btn btn-primary btn-lg" href="http://localhost:8383/Portfolio3JoshT/Index%20-%20PvIII.html" role="button">Learn more</a></p>
+  <p><a class="btn btn-primary btn-lg" href="Index - PvIII.html" role="button">Learn more</a></p>
   <ul class="nav nav-pills">
     <li role="presentation"><a href="Register.php">Register</a></li>
     <li role="presentation" id="current-link" class="active"><a href="Index.php">Home</a></li>

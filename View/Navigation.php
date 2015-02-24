@@ -7,15 +7,6 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/Customization.css">
-
-    <body>
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <a id="current-link" href="Post.php">JayBlog</a>
-            <a href="Register.php">Register</a>
-            <a href="Login.php">Sign In</a>
-    </body>
-
 </html>
 
 <?php

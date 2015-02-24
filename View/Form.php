@@ -20,11 +20,6 @@ if(!authenticateUser()) {
 }
 
 ?>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-            <a id="current-link" href="Index.php">JayBlog</a>
-            <a href="Register.php">Register</a>
-            <a href="Login.php">Sign In</a>
-</nav>
 
 <body>
 <h1>Create Blog Post</h1>

@@ -6,7 +6,7 @@ $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
 $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
 
 
-$query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
+$query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE BINARY username = '$username'");
 // All info is stored in the query.
 // It's stored as an array.
 if ($query->num_rows == 1) {

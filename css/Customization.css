@@ -11,12 +11,16 @@ body{
     background-size: cover;
 }
 
-.Login-form {
+Login-form {
     background-color: #0066ff;
     background-size: cover;
 }
 
-.Register {
+Register {
     background-color: #0066ff;
     background-size: cover;
+}
+
+.jumbotron {
+    background-image: element (Blog);
 }
