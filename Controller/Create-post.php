@@ -7,6 +7,7 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/Customization.css">
+        <div class="post-date"><span><?php the_time('d') ?></span><?php the_time('M') ?></div>
 </html>
 
 <?php

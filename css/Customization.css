@@ -21,6 +21,7 @@ Register {
     background-size: cover;
 }
 
-.jumbotron {
-    background-image: element (Blog);
+#JumboInd {
+    background-image: url(http://www.bridalguide.com/sites/default/files/article-images/honeymoons/puerto-rico/puerto-rican-beach.jpg);
+    background-size: cover;
 }
