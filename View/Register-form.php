@@ -7,7 +7,21 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/Customization.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 </html>
+
+<div class="jumbotron">
+  <h1>Welcome to JayBlog!</h1>
+  <p>This is JayBlog, the latest project in the App Academy!</p>
+  <p><a class="btn btn-primary btn-lg" href="url: http://localhost:8383/Portfolio3JoshT/Index%20-%20PvIII.html" role="button">Learn more</a></p>
+  <ul class="nav nav-pills">
+    <li role="presentation" id="current-link" class="active"><a href="Register.php">Register</a></li>
+    <li role="presentation"><a href="Index.php">Home</a></li>
+    <li role="presentation"><a href="Login.php">Sign In</a></li>
+</ul>
+</div>
 
 <?php
 require_once(__DIR__ . "/../model/config.php");
@@ -23,11 +37,6 @@ require_once(__DIR__ . "/../model/config.php");
     <div class="form-group">
         <label class="sr-only" for="exampleInputPassword3">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox"> Remember me
-        </label>
     </div>
     <button type="submit" class="btn btn-default">Sign in</button>
 </form>

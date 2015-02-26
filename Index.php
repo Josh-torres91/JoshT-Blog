@@ -21,7 +21,6 @@
     <li role="presentation" id="current-link" class="active"><a href="Index.php">Home</a></li>
     <li role="presentation"><a href="Login.php">Sign In</a></li>
 </ul>
-
 </div>
 
 <?php
